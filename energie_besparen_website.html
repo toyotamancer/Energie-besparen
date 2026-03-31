@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energie Besparen</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    nav {
+      background: #1b5e20;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #a5d6a7;
+    }
+
+    section {
+      padding: 20px;
+      margin: 10px;
+      background: white;
+      border-radius: 10px;
+      animation: slideUp 0.8s ease;
+    }
+
+    h2 { color: #2e7d32; }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-top: 10px;
+      transition: transform 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #ddd;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Animaties */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Energie Besparen</h1>
+  <p>Simpele tips om energie en geld te besparen</p>
+</header>
+
+<nav>
+  <a href="#huis">In huis</a>
+  <a href="#verwarming">Verwarming</a>
+  <a href="#water">Water</a>
+</nav>
+
+<section id="huis">
+  <h2>💡 In huis</h2>
+  <ul>
+    <li>Doe lampen uit als je ze niet gebruikt</li>
+    <li>Gebruik LED-lampen</li>
+    <li>Zet apparaten helemaal uit (geen stand-by)</li>
+  </ul>
+  <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="LED lamp">
+</section>
+
+<section id="verwarming">
+  <h2>🔥 Verwarming</h2>
+  <ul>
+    <li>Zet de verwarming 1 graad lager</li>
+    <li>Gebruik een trui in plaats van hogere temperatuur</li>
+    <li>Isoleer je huis goed</li>
+  </ul>
+  <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" alt="verwarming">
+</section>
+
+<section id="water">
+  <h2>🚿 Water</h2>
+  <ul>
+    <li>Douche korter (max 5 minuten)</li>
+    <li>Gebruik een waterbesparende douchekop</li>
+  </ul>
+  <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0" alt="douche">
+</section>
+
+<footer>
+  <p>© 2026 Energie Besparen</p>
+</footer>
+
+</body>
+</html>
